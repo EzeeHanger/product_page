@@ -16,6 +16,17 @@
 		margin-left: 25%;
 		margin-right: 25%;
 	}
+
+	.carousel-inner--image{
+		max-height: 75px;
+	}
+}
+
+/* Hiding HAMBURGER */
+@media only screen and (min-width: 1024px) {
+	.mdl-layout__drawer-button {
+		display: none;
+	}
 }
 
 .logo_Text {
@@ -25,3 +36,5 @@
 .logo_image {
 	max-height: 50px;
 }
+
+
