@@ -49,7 +49,6 @@
 	.carousel {
 		margin: 0% 20%;
 	}
-
 }
 
 .logo_Text {
@@ -69,6 +68,4 @@
 	position: absolute;
 	bottom: 20px;
 	z-index: 9999;
-  }
-
-  
+}
