@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    </head>
+    
 
     <!--MDL-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -16,127 +14,176 @@
     <!--end MDL-->
 
 
-    <link rel="stylesheet" href="./css/styles.css" />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
 
 
-    <title>Eeze</title>
+
+
+<title>Eeze</title>
 
 
 </head>
 
 <body>
     <!-- Always shows a header, even in smaller screens. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <header class="mdl-layout__header">
-      <div class="mdl-layout__header-row">
-        <!-- Title -->
-        <span class="mdl-layout-title logo_Text  header_title"> <img class="logo_image" src="assets/images/logo_w.png" alt="Logo Eeze"/>  Eeze     </span>
-        <!-- Add spacer, to align navigation to the right -->
-        <div class="mdl-layout-spacer"></div>
-        <!-- Navigation. We hide it in small screens. -->
-        <nav class="mdl-navigation mdl-layout--large-screen-only">
-          <a class="mdl-navigation__link" href="">Link</a>
-          <a class="mdl-navigation__link" href="">Link</a>
-          <a class="mdl-navigation__link" href="">Link</a>
-          <a class="mdl-navigation__link" href="">Link</a>
-        </nav>
-      </div>
-    </header>
-    <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title"><img class="logo_image" src="assets/images/logo.png" alt="Logo Eeze"/>  Eeze   </span>
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-      </nav>
-    </div>
-    <main class="mdl-layout__content">
-        
-      <div class="page-content"> 
-
-        <!-- Carousel  -->
-        
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-        
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img class=".carousel-inner--image" src="./assets/images/Coathanger_standin.png" alt="Los Angeles" style="width:100%;">
-                </div>
-        
-                <div class="item">
-                    <img class=".carousel-inner--image" src="./assets/images/Coathanger_standin.png" alt="Chicago" style="width:100%;">
-                </div>
-        
-                <div class="item">
-                    <img class=".carousel-inner--image" src="./assets/images/Coathanger_standin.png" alt="New york" style="width:100%;">
-                </div>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title logo_Text  header_title">
+                    <img class="logo_image" src="assets/images/logo_w.png" alt="Logo Eeze" /> Eeze </span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <a class="mdl-navigation__link" href="">Link</a>
+                    <a class="mdl-navigation__link" href="">Link</a>
+                    <a class="mdl-navigation__link" href="">Link</a>
+                    <a class="mdl-navigation__link" href="">Link</a>
+                </nav>
             </div>
-        
-            <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">
+                <img class="logo_image" src="assets/images/logo.png" alt="Logo Eeze" /> Eeze </span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+            </nav>
         </div>
-        
-        
-        <!-- end carousel-->
+        <main class="mdl-layout__content">
 
-    <section>
-        <img src="./assets/images/Bedroom_standin.jpg" alt='beautiful bedroom/happy couple image' />
-        <p>
-            <ul>
-                <li>Easy to use</li>
-                <li>beautiful design</li>
-                <li>washable</li>
-            </ul>
-        </p>
-    </section>
-    <section>
-        <h3>
-            how to use our product.
-        </h3>
-        <ul>
-            <li><img src="#" />grab coathanger at the top</li>
-            <li><img src="#" />place in clothes</li>
-            <li><img src="#" />open coathanger</li>
-            <li><img src="#" />hang in closet</li>
-        </ul>
-    </section>
-    <section>
-        <h3>Interested?</h3>
-        <p>[subject to change]</p>
-        <a href="#">Contact page</a>
-        <a href="#">Buy here</a>
-    </section></div>
-    </main>
+            <div class="page-content">
+
+                <!-- Carousel  -->
+
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class=".carousel-inner--image" src="./assets/images/Coathanger_standin.png" alt="Los Angeles" style="width:100%;">
+                        </div>
+
+                        <div class="item">
+                            <img class=".carousel-inner--image" src="./assets/images/Coathanger_standin.png" alt="Chicago" style="width:100%;">
+                        </div>
+
+                        <div class="item">
+                            <img class=".carousel-inner--image" src="./assets/images/Coathanger_standin.png" alt="New york" style="width:100%;">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <!-- end carousel-->
+
+                <section>
+                    <img src="./assets/images/Bedroom_standin.jpg" alt='beautiful bedroom/happy couple image' />
+                    <p>
+                        <ul>
+                            <li>Easy to use</li>
+                            <li>beautiful design</li>
+                            <li>washable</li>
+                        </ul>
+                    </p>
+                </section>
+
+                <section>
+                    <!--++++++++++++++++++++ Usage instructions ++++++++++++++++++++++++++++++++-->
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 text-center step_container">
+                            <div class="service box">
+                                <img class="fa fa-4x fa-globe wow bounceIn text-primary step_image" src="./assets/images/Step_standin.png" />
+                                <h3>Step 1</h3>
+                                <p class="text-muted">
+                                    Consequat ea enim anim occaecat anim amet aliquip nostrud et Lorem sit. Dolor sit dolor reprehenderit duis enim ullamco ad
+                                    fugiat do. Ipsum nulla ut enim sint velit minim ullamco duis exercitation voluptate non
+                                    occaecat cupidatat proident.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 text-center step_container">
+                            <div class="service box">
+                                <img class="fa fa-4x fa-globe wow bounceIn text-primary step_image" src="./assets/images/Step_standin.png" />
+                                <h3>Step 2</h3>
+                                <p class="text-muted">
+                                    Consequat ea enim anim occaecat anim amet aliquip nostrud et Lorem sit. Dolor sit dolor reprehenderit duis enim ullamco ad
+                                    fugiat do. Ipsum nulla ut enim sint velit minim ullamco duis exercitation voluptate non
+                                    occaecat cupidatat proident.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 text-center step_container">
+                            <div class="service box">
+                                <img class="fa fa-4x fa-globe wow bounceIn text-primary step_image" src="./assets/images/Step_standin.png" />
+                                <h3>Step 3</h3>
+                                <p class="text-muted">
+                                    Consequat ea enim anim occaecat anim amet aliquip nostrud et Lorem sit. Dolor sit dolor reprehenderit duis enim ullamco ad
+                                    fugiat do. Ipsum nulla ut enim sint velit minim ullamco duis exercitation voluptate non
+                                    occaecat cupidatat proident.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 text-center step_container">
+                            <div class="service box">
+                                <img class="fa fa-4x fa-globe wow bounceIn text-primary step_image" src="./assets/images/Step_standin.png" />
+                                <h3>Step 4</h3>
+                                <p class="text-muted">
+                                    Consequat ea enim anim occaecat anim amet aliquip nostrud et Lorem sit. Dolor sit dolor reprehenderit duis enim ullamco ad
+                                    fugiat do. Ipsum nulla ut enim sint velit minim ullamco duis exercitation voluptate non
+                                    occaecat cupidatat proident.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h3>Interested?</h3>
+                    <p>[subject to change]</p>
+                    <a href="#">Contact page</a>
+                    <a href="#">Buy here</a>
+                </section>
+            </div>
+        </main>
 
 
-    <footer class="mdl-mini-footer">
+        <footer class="mdl-mini-footer">
             <div class="mdl-mini-footer__left-section">
                 <div class="mdl-logo">Title for the footer</div>
             </div>
             <div class="mdl-mini-footer__right-section">
                 <ul class="mdl-mini-footer__link-list">
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">Privacy &amp; Terms</a></li>
+                    <li>
+                        <a href="#">Help</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy &amp; Terms</a>
+                    </li>
                 </ul>
             </div>
         </footer>
-  </div>
+    </div>
 </body>
 
 </html>

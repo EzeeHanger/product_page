@@ -1,23 +1,27 @@
 /* Large Devices, Wide Screens */
+
 @media only screen and (max-width: 1200px) {
 }
 
 /* Medium Devices, Desktops */
+
 @media only screen and (max-width: 992px) {
 }
 
 /* Small Devices, Tablets */
+
 @media only screen and (max-width: 768px) {
 }
 
 /* Extra Small Devices, Phones */
+
 @media only screen and (max-width: 480px) {
 	.header_title {
 		margin-left: 25%;
 		margin-right: 25%;
 	}
 
-	.carousel-inner--image{
+	.carousel-inner--image {
 		max-height: 75px;
 	}
 }
@@ -26,6 +30,14 @@
 @media only screen and (min-width: 1024px) {
 	.mdl-layout__drawer-button {
 		display: none;
+	}
+
+	.header_title {
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+	.step_container {
+		width: 90%;
 	}
 }
 
@@ -37,4 +49,6 @@
 	max-height: 50px;
 }
 
-
+.step_image {
+	max-width: 75%;
+}
