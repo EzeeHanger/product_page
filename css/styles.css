@@ -1,6 +1,9 @@
 /* Large Devices, Wide Screens */
 
 @media only screen and (max-width: 1200px) {
+	.carousel {
+		margin: 0% 20%;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -11,6 +14,9 @@
 /* Small Devices, Tablets */
 
 @media only screen and (max-width: 768px) {
+	.carousel {
+		margin: 0%;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -39,6 +45,11 @@
 	.step_container {
 		width: 90%;
 	}
+
+	.carousel {
+		margin: 0% 20%;
+	}
+
 }
 
 .logo_Text {
@@ -52,3 +63,12 @@
 .step_image {
 	max-width: 75%;
 }
+
+#carouselButtons {
+	margin-left: 100px;
+	position: absolute;
+	bottom: 20px;
+	z-index: 9999;
+  }
+
+  

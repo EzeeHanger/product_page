@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!--MDL-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -15,9 +18,10 @@
 
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-        <link rel="stylesheet" href="./css/styles.css" />
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="./js/carousel.js" defer></script>
 </head>
 
 
@@ -95,6 +99,18 @@
                         <span class="glyphicon glyphicon-chevron-right"></span>
                         <span class="sr-only">Next</span>
                     </a>
+
+
+                    <div id="carouselButtons">
+                        <button id="playButton" type="button" class="btn btn-default btn-xs">
+                            <span class="glyphicon glyphicon-play"></span>
+                        </button>
+                        <button id="pauseButton" type="button" class="btn btn-default btn-xs">
+                            <span class="glyphicon glyphicon-pause"></span>
+                        </button>
+                    </div>
+
+
                 </div>
                 <!-- end carousel-->
 
@@ -184,6 +200,9 @@
             </div>
         </footer>
     </div>
+
+
+
 </body>
 
 </html>
