@@ -108,3 +108,38 @@
  ::before {
     box-sizing: border-box;
 }
+
+
+/* Features: */
+
+.features-banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url('../assets/images/banner-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.feature-list {
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+}
+
+.feature-list-item {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.feature-list-item p {
+    display: inline;
+    font-size: 28px;
+}
+
+.feature-list-item img {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
