@@ -13,6 +13,10 @@
     pointer-events: auto;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 
 /*  +++++++++++++++++ header +++++++++++++++++++*/
 
@@ -202,6 +206,7 @@
     box-sizing: border-box;
     padding: 150px 80px;
     animation: anim-opacity-full 480ms ease-out;
+    overflow: hidden;
 }
 
 .row {
@@ -267,7 +272,8 @@
 
 /*  +++++++++++++++++ about +++++++++++++++++++*/
 
-.about {
+.about,
+instructions {
     position: relative;
     overflow: hidden;
     color: rgba(29, 29, 29, .7);
@@ -296,6 +302,7 @@
     transition: opacity 300ms ease-out;
     overflow: hidden;
     display: block;
+    overflow: hidden;
 }
 
 .gallery-wrapper {
@@ -340,4 +347,15 @@
     height: 442px;
     position: relative;
     border: 0;
+}
+
+
+/*  +++++++++++++++++ second product +++++++++++++++++++*/
+
+.secondProduct {
+    background-color: transparent;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    display: block;
 }
