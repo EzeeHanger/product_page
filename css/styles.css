@@ -263,3 +263,27 @@
     background-color: transparent;
     cursor: auto;
 }
+
+
+/*  +++++++++++++++++ about +++++++++++++++++++*/
+
+.about {
+    position: relative;
+    overflow: hidden;
+    color: rgba(29, 29, 29, .7);
+    display: block;
+}
+
+.content-block>p {
+    margin-bottom: 0;
+    margin-top: 0;
+    word-wrap: break-word;
+    display: block;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: .06em;
+    line-height: 1.8em;
+    text-transform: none;
+    color: rgba(29, 29, 29, .7);
+}
