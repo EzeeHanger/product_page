@@ -17,246 +17,63 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="apple-touch-icon" href="./assets/images/logo.png">
 
-
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <!--MDL-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.brown-light_green.min.css" />
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <!--end MDL-->
-
-
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <script src="./js/carousel.js" defer></script>
-
+    <title>Eeze</title>
 </head>
 
-
-
-
-<title>Eeze</title>
-
-
-</head>
-
-<body>
-    <!-- Always shows a header, even in smaller screens. -->
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header">
-            <div class="mdl-layout__header-row">
-                <!-- Title -->
-                <span class="mdl-layout-title logo_Text  header_title">
-                    <img class="logo_image" src="assets/images/logo_w.png" alt="Logo Eeze" /> Eeze </span>
-                <!-- Add spacer, to align navigation to the right -->
-                <div class="mdl-layout-spacer"></div>
-                <!-- Navigation. We hide it in small screens. -->
-                <nav class="mdl-navigation mdl-layout--large-screen-only">
-                    <a class="mdl-navigation__link" href="">Link</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
+<body class="landing">
+    <header class="header-top">
+        <div class="header-inner">
+            <div class="header-left">
+                <nav class="header-nav">
+                    <div class="header-nav-inner">
+                        <a class="header-nav-item" href="#">Home</a>
+                        <a class="header-nav-item" href="#">Team</a>
+                        <a class="header-nav-item" href="#">Contact</a>
+                    </div>
                 </nav>
             </div>
-        </header>
-        <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title">
-                <img class="logo_image" src="assets/images/logo.png" alt="Logo Eeze" /> Eeze </span>
-            <nav class="mdl-navigation">
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
-                <a class="mdl-navigation__link" href="">Link</a>
+            <div class="header-middle">
+                <a class="header-branding" href="#">Ezee</a>
+            </div>
+            <div class="header-right"></div>
+        </div>
+    </header>
+    <div class="site-inner">
+        <div class="content-outer">
+            <main class="index">
+                <section class="welcome">
+
+                </section>
+                <section class="about">
+
+                </section>
+                <section class="gallery">
+
+                </section>
+                <section class="instructions">
+
+                </section>
+                <section class="secondProduct">
+
+                </section>
+                <section class="comment">
+
+                </section>
+            </main>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-inner">
+            <nav class="footer-nav">
+                <a class="footer-nav-item" href="#">Home</a>
+                <a class="footer-nav-item" href="#">Team</a>
+                <a class="footer-nav-item" href="#">Contact</a>
             </nav>
         </div>
-        <main class="mdl-layout__content">
-
-            <div class="page-content">
-
-                <!-- Carousel  -->
-
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                    </ol>
-
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class=".carousel-inner--image" src="./assets/images/Coathanger_standin.png" alt="Los Angeles" style="width:100%;">
-                        </div>
-
-                        <div class="item">
-                            <img class=".carousel-inner--image" src="./assets/images/Coathanger_standin.png" alt="Chicago" style="width:100%;">
-                        </div>
-
-                        <div class="item">
-                            <img class=".carousel-inner--image" src="./assets/images/Coathanger_standin.png" alt="New york" style="width:100%;">
-                        </div>
-                    </div>
-
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-
-
-                    <div id="carouselButtons">
-                        <button id="playButton" type="button" class="btn btn-default btn-xs">
-                            <span class="glyphicon glyphicon-play"></span>
-                        </button>
-                        <button id="pauseButton" type="button" class="btn btn-default btn-xs">
-                            <span class="glyphicon glyphicon-pause"></span>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- end carousel-->
-                <!-- +++++++++++++++++++++++++ Features ++++++++++++++++++++++++++++++++++++++ -->
-
-                <section>
-                    <aside class="features-banner ">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 my-auto">
-                                </div>
-                                <div class="col-lg-6 my-auto">
-                                    <ul class="feature-list">
-                                        <li class="feature-list-item">
-                                            <img src="#" class="feature-list-icon" />
-                                            <p class="feature-list-text">
-                                                Lorem ipsum
-                                            </p>
-                                        </li>
-                                        <li class="feature-list-item">
-                                            <img src="#" class="feature-list-icon" />
-                                            <p class="feature-list-text">
-                                                Lorem ipsum
-                                            </p>
-                                        </li>
-                                        <li class="feature-list-item">
-                                            <img src="#" class="feature-list-icon" />
-                                            <p class="feature-list-text">
-                                                Lorem ipsum
-                                            </p>
-                                        </li>
-
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
-                </section>
-
-                <section>
-                    <!--++++++++++++++++++++ Usage instructions ++++++++++++++++++++++++++++++++-->
-
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-6 text-center step_container">
-                                <div class="service box">
-                                    <img class="fa fa-4x fa-globe wow bounceIn text-primary step_image" src="./assets/images/Step_standin.png" />
-                                    <h3>Step 1</h3>
-                                    <p class="text-muted">
-                                        Consequat ea enim anim occaecat anim amet aliquip nostrud et Lorem sit. Dolor sit dolor reprehenderit duis enim ullamco ad fugiat do. Ipsum nulla ut enim sint velit minim ullamco duis exercitation voluptate non occaecat cupidatat proident.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 text-center step_container">
-                                <div class="service box">
-                                    <img class="fa fa-4x fa-globe wow bounceIn text-primary step_image" src="./assets/images/Step_standin.png" />
-                                    <h3>Step 2</h3>
-                                    <p class="text-muted">
-                                        Consequat ea enim anim occaecat anim amet aliquip nostrud et Lorem sit. Dolor sit dolor reprehenderit duis enim ullamco ad fugiat do. Ipsum nulla ut enim sint velit minim ullamco duis exercitation voluptate non occaecat cupidatat proident.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 text-center step_container">
-                                <div class="service box">
-                                    <img class="fa fa-4x fa-globe wow bounceIn text-primary step_image" src="./assets/images/Step_standin.png" />
-                                    <h3>Step 3</h3>
-                                    <p class="text-muted">
-                                        Consequat ea enim anim occaecat anim amet aliquip nostrud et Lorem sit. Dolor sit dolor reprehenderit duis enim ullamco ad fugiat do. Ipsum nulla ut enim sint velit minim ullamco duis exercitation voluptate non occaecat cupidatat proident.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 text-center step_container">
-                                <div class="service box">
-                                    <img class="fa fa-4x fa-globe wow bounceIn text-primary step_image" src="./assets/images/Step_standin.png" />
-                                    <h3>Step 4</h3>
-                                    <p class="text-muted">
-                                        Consequat ea enim anim occaecat anim amet aliquip nostrud et Lorem sit. Dolor sit dolor reprehenderit duis enim ullamco ad fugiat do. Ipsum nulla ut enim sint velit minim ullamco duis exercitation voluptate non occaecat cupidatat proident.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </section>
-                <!--+++++++++++++++++++++++++++++++++++++++++ call to action ++++++++++++++++++++++++++++++++++++++++++++++-->
-                <section>
-                    <aside class="banner ">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-6 my-auto">
-                                    <h2>Interested in our product?</h2>
-                                </div>
-                                <div class="col-lg-6 my-auto">
-                                    <ul class="list-inline banner-social-buttons">
-                                        <li class="list-inline-item">
-                                            <a href="#" class="btn btn-secondary btn-lg">
-                                                <i class="fa fa-shop fa-fw"></i>
-                                                <span class="network-name">Shop</span>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a href="#" class="btn btn-secondary btn-lg">
-                                                <i class="fa fa-contact fa-fw"></i>
-                                                <span class="network-name">Contact</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
-                </section>
-            </div>
-            <!--+++++++++++++++++++++++++++++++++++++++++ Footer ++++++++++++++++++++++++++++++++++++++++++++++-->
-            <footer class="mdl-mini-footer">
-                <div class="mdl-mini-footer__left-section">
-                    <ul class="mdl-mini-footer__link-list">
-                        <li>
-                            <a href="#">Team</a>
-                        </li>
-                        <li>
-                            <a href="#">Products</a>
-                        </li>
-                        <li>
-                            <a href="#">Howest</a>
-                        </li>
-                    </ul>
-                </div>
-            </footer>
-        </main>
-    </div>
-
-
-
+    </footer>
 </body>
 
 </html>
