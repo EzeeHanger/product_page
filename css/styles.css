@@ -1,0 +1,130 @@
+.landing {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(224, 224, 224);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: .06em;
+    line-height: 1.8em;
+    text-transform: none;
+    color: rgba(29, 29, 29, .7);
+    margin: 0;
+    display: block;
+    pointer-events: auto;
+}
+
+
+/*  +++++++++++++++++ header +++++++++++++++++++*/
+
+.header-inner {
+    display: flex;
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    padding-left: 75px;
+    padding-right: 75px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.header-left {
+    flex: 1 1 0px;
+    display: flex;
+    transition: opacity 200ms 600ms ease-out;
+    text-align: left;
+    justify-content: flex-start;
+    min-width: 0;
+    max-width: 100%;
+}
+
+.header-middle {
+    flex: 0 0 auto;
+    display: flex;
+    transition: opacity 200ms 600ms ease-out;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+    max-width: 100%;
+}
+
+.header-right {
+    align-items: center;
+    display: flex;
+    flex: 1 1 0px;
+    transition: opacity 200ms 600ms ease-out;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 0;
+    max-width: 100%;
+}
+
+.header-nav {
+    order: 3;
+    padding: 5px 5px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    line-height: 1em;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    display: block;
+    text-align: left;
+}
+
+.header-nav-inner {
+    margin: -.618em -.618em;
+    display: block;
+}
+
+.header-nav-inner:hover a {
+    color: #7c7c7c;
+}
+
+.header-nav-item {
+    margin: 0 .618em;
+    padding: .618em 0;
+    display: inline-block;
+    color: #1d1d1d;
+    vertical-align: middle;
+    transition: color 170ms ease-in-out, background-color 170ms ease-in-out;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+.header-nav-inner .header-nav-item:hover {
+    color: #1d1d1d;
+}
+
+.header-branding {
+    order: 3;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 27px;
+    letter-spacing: .21em;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #000;
+    text-rendering: optimizeLegibility;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: auto;
+    text-align: center;
+}
